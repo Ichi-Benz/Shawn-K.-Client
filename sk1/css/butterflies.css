@@ -1,0 +1,90 @@
+h2{
+    display:inline;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#info_physical{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+#info_mind{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    left: 100px;
+}
+#info_verbal{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    left: 200px;
+}
+#info_habit{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    left: 150px;
+}
+#info_spiritual{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: 0;
+    left: -100px;
+}
+#info_schedule{
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    z-index: 20;
+    top: -150px;
+    left: 0;
+}
+#info_habit,
+#info_mind,
+#info_physical,
+#info_schedule,
+#info_spiritual,
+#info_verbal{
+    border-style: outset;
+    border-color: #5c1aae;
+    -webkit-box-shadow: 0px 0px 83px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 83px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 83px 1px rgba(0,0,0,0.75);
+}
+#physical:hover #info_physical{
+    visibility:visible;
+}
+#mind:hover #info_mind{
+    visibility: visible;
+}
+#habit:hover #info_habit{
+    visibility: visible;
+}
+#verbal:hover #info_verbal{
+    visibility: visible;
+}
+#spiritual:hover #info_spiritual{
+    visibility: visible;
+}
+#schedule:hover #info_schedule{
+    visibility: visible;
+}
